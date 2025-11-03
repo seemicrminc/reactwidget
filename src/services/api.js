@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost/mtpsaas/public/api/v1';
-// const API_BASE_URL = 'https://seemii.mytutorpod.org/v1/mtpsaas/public/api/v1/';
+//const API_BASE_URL = 'http://localhost/mtpsaas/public/api/v1';
+ const API_BASE_URL = 'https://seemii.mytutorpod.org/v1/mtpsaas/public/api/v1/';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
