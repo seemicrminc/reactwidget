@@ -170,6 +170,7 @@ const LoginWidget = ({ widget, apiBaseUrl = 'http://localhost/mtpsaas/public' })
           <p className="text-gray-600">Sign in to continue</p>
         </div>
 
+
         {/* Error Message */}
         {error && (
           <div className="mb-4 p-4 bg-red-50 border border-red-200 rounded-lg">
